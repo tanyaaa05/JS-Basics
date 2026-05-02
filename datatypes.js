@@ -1,6 +1,8 @@
 "use strict"; // treat all js code as newer version
 
+
 // alert("Hello World!"); // we can use alert, prompt and confirm in browser but not in node.js environment
+
 
 let number = 42; // number data type
 let name = "Alice"; // string data type
@@ -21,7 +23,9 @@ console.log("BigInt:", bigIntNumber);
 console.log("Symbol:", symbolValue);
 console.log("Object:", objectValue);
 
+
 console.table({ number, name, isActive, undefinedVariable, nullVariable, bigIntNumber, symbolValue, objectValue });
+
 
 console.log("Type of number:", typeof number);
 console.log("Type of name:", typeof name);
@@ -31,6 +35,7 @@ console.log("Type of nullVariable:", typeof nullVariable);
 console.log("Type of bigIntNumber:", typeof bigIntNumber);
 console.log("Type of symbolValue:", typeof symbolValue);
 console.log("Type of objectValue:", typeof objectValue);
+
 
 console.log("Is number a BigInt?", typeof number === "bigint");
 
