@@ -3,15 +3,23 @@
 
 // alert("Hello World!"); // we can use alert, prompt and confirm in browser but not in node.js environment
 
+// primitive data types: number, string, boolean, undefined, null, BigInt, Symbol
+// Primitive data types are immutable and store a single value.
+let number = 42;
+let name = "Alice";
+let isActive = true;
+let undefinedVariable;
+let nullVariable = null;
+let bigIntNumber = 9007199254740991n;
+let objectValue = { name: "Alice" };
 
-let number = 42; // number data type
-let name = "Alice"; // string data type
-let isActive = true; // boolean data type
-let undefinedVariable; // undefined data type
-let nullVariable = null; // null data type
-let bigIntNumber = 9007199254740991n; // BigInt data type
-let symbolValue = Symbol("unique"); // Symbol data type
-let objectValue = { key: "value" }; // Object data type
+
+let symbolValue = Symbol("123");
+let anotherSymbolValue = Symbol("123");
+console.log("Symbol value:", symbolValue);
+console.log("Another Symbol value:", anotherSymbolValue);
+console.log("Are the two symbols equal?", symbolValue === anotherSymbolValue); // false, because each symbol is unique
+
 
 
 console.log("Number:", number);
@@ -20,7 +28,6 @@ console.log("Boolean:", isActive);
 console.log("Undefined:", undefinedVariable);
 console.log("Null:", nullVariable);
 console.log("BigInt:", bigIntNumber);
-console.log("Symbol:", symbolValue);
 console.log("Object:", objectValue);
 
 
