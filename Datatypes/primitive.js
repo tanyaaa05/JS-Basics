@@ -11,7 +11,6 @@ let isActive = true;
 let undefinedVariable;
 let nullVariable = null;
 let bigIntNumber = 9007199254740991n;
-let objectValue = { name: "Alice" };
 
 
 let symbolValue = Symbol("123");
@@ -28,10 +27,9 @@ console.log("Boolean:", isActive);
 console.log("Undefined:", undefinedVariable);
 console.log("Null:", nullVariable);
 console.log("BigInt:", bigIntNumber);
-console.log("Object:", objectValue);
 
 
-console.table({ number, name, isActive, undefinedVariable, nullVariable, bigIntNumber, symbolValue, objectValue });
+console.table({ number, name, isActive, undefinedVariable, nullVariable, bigIntNumber, symbolValue });
 
 
 console.log("Type of number:", typeof number);
@@ -41,7 +39,6 @@ console.log("Type of undefinedVariable:", typeof undefinedVariable);
 console.log("Type of nullVariable:", typeof nullVariable);
 console.log("Type of bigIntNumber:", typeof bigIntNumber);
 console.log("Type of symbolValue:", typeof symbolValue);
-console.log("Type of objectValue:", typeof objectValue);
 
 
 console.log("Is number a BigInt?", typeof number === "bigint");

@@ -1,6 +1,6 @@
 const accountId = 98765;
 let accountName = "John Doe";
-var accountBalance = 10000.50;  // prefer not to use var bcs of issues in functional and block scope 
+var accountBalance = 10000.50;  // prefer not to use var bcs of issues in functional and block scope
 
 accountStatus = "Active"; // This will create a global variable without declaration, which is not recommended
 

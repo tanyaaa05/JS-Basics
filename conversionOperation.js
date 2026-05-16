@@ -40,3 +40,15 @@ console.log("Type of number value:", typeof someNumber);
 let convertedString = String(someNumber);
 console.log("Converted string:", convertedString);
 console.log("Type of converted string:", typeof convertedString);
+
+
+let num = 0;
+
+console.log(num);
+console.log(typeof num);
+
+let convertedNum = Boolean(num);
+console.log(convertedNum);
+console.log(typeof convertedNum);
+
+
