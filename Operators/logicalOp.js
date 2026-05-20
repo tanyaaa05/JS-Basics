@@ -7,8 +7,8 @@ console.log("NOT a:", !a);
 let x = 5;
 let y = 10;
 
-console.log("x > y AND x < 10:", (x > y) && (x < 10));
-console.log("x > y OR x < 10:", (x > y) || (x < 10));
+console.log("x > y AND x < 20:", (x > y) && (x < 20));
+console.log("x > y OR x < 20:", (x > y) || (x < 20));
 
 
 
